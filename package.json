@@ -1,0 +1,22 @@
+{
+  "name": "helloworldjsp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://shawnaxsom@github.com/shawnaxsom/vuejs-on-java-jsp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shawnaxsom/vuejs-on-java-jsp/issues"
+  },
+  "homepage": "https://github.com/shawnaxsom/vuejs-on-java-jsp#readme",
+  "dependencies": {
+    "hello-world-npm": "^1.1.1"
+  }
+}

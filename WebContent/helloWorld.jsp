@@ -8,24 +8,13 @@
   </meta>
 
   <body>
-	
+
     <div id="hello-world-app">
       <h1>{{ msg }}</h1>
     </div>
 
     <script
-      src="//cdnjs.cloudflare.com/ajax/libs/vue/2.1.6/vue.min.js">
-    </script>
-
-    <script>
-      new Vue({
-        el: "#hello-world-app",
-        data() {
-          return {
-            msg: "Hello there World, from Vue.js!"
-          }
-        }
-      });
+      src="/hw/helloWorld.js">
     </script>
 
   </body>
