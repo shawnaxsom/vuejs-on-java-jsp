@@ -1,12 +1,8 @@
-const helloWorld = require('hello-world-npm');
+import Vue from "vue";
 
-console.log(helloWorld());
-
-// new Vue({
-//   el: "#hello-world-app",
-//   data() {
-//     return {
-//       msg: "Hello there World, from Vue.js!"
-//     }
-//   }
-// });
+const vue = new Vue({
+  el: '#app',
+  render: function (createElement) {
+    return createElement('h1', 'testing')
+  }
+})

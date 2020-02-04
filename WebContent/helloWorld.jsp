@@ -9,8 +9,8 @@
 
   <body>
 
-    <div id="hello-world-app">
-      <h1>{{ msg }}</h1>
+    <div id="app">
+      <p>{{ hello }}</p>
     </div>
 
     <script

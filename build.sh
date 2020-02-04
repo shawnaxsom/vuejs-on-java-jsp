@@ -1,10 +1,13 @@
+set -e
+
 rm -rf dist
 rm -rf /usr/local/Cellar/tomcat/9.0.30/libexec/webapps/hw.war
 rm -rf /usr/local/Cellar/tomcat/9.0.30/libexec/webapps/hw
 rm -rf target
 
 parcel build WebContent/helloWorld.js
-parcel build WebContent/helloWorld.jsp
+cp WebContent/helloWorld.html dist/
+cp WebContent/helloWorld.jsp dist/
 
 mvn clean
 mvn compile
