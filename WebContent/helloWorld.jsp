@@ -22,7 +22,7 @@
         el: "#hello-world-app",
         data() {
           return {
-            msg: "Hello World, from Vue.js!"
+            msg: "Hello there World, from Vue.js!"
           }
         }
       });
